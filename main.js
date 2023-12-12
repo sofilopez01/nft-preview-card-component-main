@@ -22,3 +22,9 @@ console.log(paraf);
 
 const divs = document.querySelectorAll("div");
 console.log(divs);
+
+
+//    Creando elementos con createElement()
+const div = document.createElement("div");
+
+const comment = document.createComment("Comentario hola");   
