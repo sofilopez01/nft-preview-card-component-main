@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "outfit", sans-serif;
+  max-width: 1440px;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  height: 100vh;
+  background: hsl(217, 54%, 11%);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 550px;
+  border-radius: 4%;
+  background: hsl(216, 50%, 16%);
+ box-shadow:  10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+
+.equilibrium {
+  width: 90%;
+  height:320px;
+  border-radius: 5%;
+  margin: 15px 15px
+}
+
+.title-and-text {
+  text-align: start;
+}
+
+.title {
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0px 10px;
+  color: hsl(0, 0%, 100%);
+  margin: 0px 15px;
+}
+
+.text {
+  color: hsl(215, 51%, 70%);
+  padding: 10px;
+  margin: 0 15px;
+}
+
+.price-and-days {
+ display: flex;
+  margin: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid  hsl(215, 32%, 27%);
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+ margin-right: 150px;
+  
+}
+
+.days {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+
+}
+
+.footer-avatar {
+  display: flex;
+  justify-content: start;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 100%);
+  margin-right: 20px;
+}
+
+.footer-avatar p {
+  color: hsl(215, 51%, 70%);
+}
+
+.footer-avatar span {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
